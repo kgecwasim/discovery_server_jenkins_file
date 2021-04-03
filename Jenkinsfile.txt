@@ -5,7 +5,6 @@ pipeline{
         stage('Checkout'){
             steps{
                 git(url:'https://github.com/kgecwasim/discovery_server.git')
-                //echo "$env.BUILD_ID - $env.BUILD_NUMBER"
             }
         }
         stage('build'){
