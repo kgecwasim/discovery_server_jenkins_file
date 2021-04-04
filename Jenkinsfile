@@ -8,7 +8,7 @@ pipeline{
         }
         stage('build'){
             steps{
-                echo 'fake build'
+                echo 'fake build 1'
             }
         }
         stage('Deploy in docker'){
